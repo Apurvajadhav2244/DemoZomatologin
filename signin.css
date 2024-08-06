@@ -1,0 +1,63 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: bisque;
+    justify-content: center;
+    background-image:  linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(food2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.signup-container{
+ width: 400px;
+
+ border-radius: 5px;
+ background-color: rgb(0, 0, 0,0.5);
+padding-top: 100px;
+ padding: 20px;
+
+}
+.signup-form h3{
+    text-align: center;
+    margin-bottom: 4px;
+    color: white;
+}
+.input-group{
+margin-bottom: 10px;
+}
+.input-group label{
+    display: flex;
+    color: white;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.input-group input{
+ width: 95.7%;
+ padding: 4px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+#errorMsg{
+    color: white;
+}
+button{
+    width:100%;
+    color: white;
+    border:none;
+    font-size: 16px;
+    background-color: #ff5a5f;
+    cursor: pointer;
+    padding: 10px;
+}
+button:hover{
+    background-color: #e04a4d;
+}
+.signin{
+    color: white;
+    font-size: smaller;
+}
+.signin a{
+text-decoration: none;
+color: white;
+}
